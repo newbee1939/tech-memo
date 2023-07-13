@@ -1,0 +1,10 @@
+- Ethereum のネットワーク（Ethereum Node）とクライアントとの情報のやり取り
+  - JSON-RPC を使う
+- 様々な企業が JSON-RPC の API を公開しており、それらを使うことでクライアントと Ethereum Node がやり取りをすることができる
+  - alchemy
+  - INFURA(Sepolia に対応している)
+    - など
+- 各企業の JSON-RPC は EIP-1193 によって標準化されてるので、どれを使っても同じように使える
+  - パフォーマンスとかは違うけど
+- INFURA の URL
+  - https://app.infura.io/dashboard
