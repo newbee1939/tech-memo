@@ -26,3 +26,4 @@
 
 - Ethreum ネットワークにデプロイできる
 - sepolia の ETH が減る
+- MetaMask アドレスから Contract Address へデプロイ
