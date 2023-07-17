@@ -1,5 +1,7 @@
 # 日本語バージョン
 
+- https://twitter.com/newbee1939/status/1680942624600117250
+
 連休最終日、React Server Components および Next.js の App Router(App Directory)について、主に以下の記事を使って学んだので、自分なりに理解したことを連投でまとめてみます。
 ・https://zenn.dev/suzu_4/articles/2e6dbb25c12ee5
 ・https://zenn.dev/uhyo/articles/react-server-components-multi-stage
@@ -31,6 +33,8 @@ React Server Components と SSR は同じ仕組みでも相反する仕組みで
 React Server Components と SSR を組み合わせることで、SEO の最適化を図る一方で、パフォーマンスの面でも最適化を図ることが可能です。
 
 # 英語バージョン
+
+- https://twitter.com/newbee1970/status/1680944831055695873
 
 Today I learned about React Server Components and Next.js' App Router (App Directory), so I will summarize my own understanding in a series of posts.
 
