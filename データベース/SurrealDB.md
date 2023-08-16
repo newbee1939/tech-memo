@@ -118,11 +118,11 @@ SurrealQL の特徴の一つにリレーションを辿るのが非常に簡単�
 
 SurrealDB では、JOIN を使用することなく関連するレコードを効率的に習得することができる。
 
-メールを表すレコードを追加し、そのメールが著者に送られたことを表現する辺を追加する。
-
-グラフの辺の追加には RELATE 文を用いる。
-
 RELATE 文を使うことで、レコード同士に graph edges を追加できる。これにより、データをより効率的に arrow を使ってクエリできる。
+
+参考: https://surrealdb.com/docs/surrealql/statements/relate
+
+メールを表すレコードを追加し、そのメールが著者に送られたことを表現する辺を追加する。
 
 ```
 curl POST -H "Accept: application/json" -H "NS: test_namespace" -H "DB: test_db" -u "root:root" -d "
