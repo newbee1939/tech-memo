@@ -17,6 +17,13 @@
   - 多対多関係や複数のリレーションを使った深い関係クエリでも SQL より短く簡潔に記述できる
 - JS の独自のロジックを埋め込んで柔軟にクエリすることもできる
 
+# デプロイについて
+
+- 参考
+  - https://surrealdb.com/docs/deployment
+- GCP ではまだ使えない
+  - https://surrealdb.com/docs/deployment/google
+
 # 実際に触ってみた
 
 ## インストール
@@ -161,13 +168,6 @@ SELECT ->send->(email as email)->(to WHERE opened = false)->(author WHERE admin 
 FROM author:jiro FETCH email, receiver;
 " http://localhost:8000/sql | jq
 ```
-
-# デプロイについて
-
-- 参考
-  - https://surrealdb.com/docs/deployment
-- GCP ではまだ使えない
-  - https://surrealdb.com/docs/deployment/google
 
 # 感想
 
