@@ -8,3 +8,4 @@
   - パフォーマンスとかは違うけど
 - INFURA の URL
   - https://app.infura.io/dashboard
+- ex. deploy.ts -> JSON-RPC endpoint(Infra) -> Etherium Network
