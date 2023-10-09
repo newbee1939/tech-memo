@@ -1,0 +1,9 @@
+- UniSwap は 2022 年現在、取引額が最も大きな DEX
+- AMM(Automatic Market Maker)による DEX の草分け
+- ERC20 準拠なトークンなら何でも取引可能
+  - ユーザーが自由にトークン対を上場可能
+- UniSwap のオープンプロジェクト
+  - PancakeSwap
+    - Binance Smart Chain 上の Uniswap クローン
+    - SushiSwap
+      - Ethereum Network 上の DEX

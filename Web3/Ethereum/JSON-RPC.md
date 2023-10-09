@@ -1,4 +1,4 @@
-- Ethereum のネットワーク（Ethereum Node）とクライアントとの情報のやり取り
+- Ethereum のネットワーク（Ethereum Node）（スマートコントラクト）とクライアントとの情報のやり取り
   - JSON-RPC を使う
 - 様々な企業が JSON-RPC の API を公開しており、それらを使うことでクライアントと Ethereum Node がやり取りをすることができる
   - alchemy
@@ -9,3 +9,4 @@
 - INFURA の URL
   - https://app.infura.io/dashboard
 - ex. deploy.ts -> JSON-RPC endpoint(Infra) -> Etherium Network
+- 例えば、フロントエンドの React アプリから Ethereum Network 上のスマートコントラクトにアクセスするためには、JSON-RPC を経由する必要がある
