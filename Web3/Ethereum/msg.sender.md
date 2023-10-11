@@ -1,0 +1,5 @@
+- Solidity の msg.sender を誤解しないように
+  - https://zenn.dev/blueplanet/articles/2023-05-06-msg-sender
+- msg.sender は、メッセージの送信者（ 現在の呼び出し ）
+- tx.origin は、トランザクションの送信者（ 呼び出しチェーン全体 ）
+  - tx.origin はシンプルでトランザクションの送信者です。私は msg.sender がこの位置づけだと誤解していました
