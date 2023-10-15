@@ -1,6 +1,7 @@
 # Event とは
 
 - Ethereum における Event とはログのこと
+- Solidity では、Event は State Variables のすぐ下に定義する
 - コントラクトの実行中に Event を emit(送出)すると、その内容が Ethereum Network に保存される
   - ログ情報の保存コストは Storage への保存コストよりも小さい
 - ex.
