@@ -1,3 +1,12 @@
+## 資料
+
+- connpass
+  - https://offers.connpass.com/event/298939/
+- スライド
+  - https://speakerdeck.com/fumina/lt-and-deisukatusiyon5raundo-uhiyosanyosikosantogai-metekao-erureactkonponentoshe-ji
+- ハッシュタグ
+  - #Offers_React コンポーネント設計
+
 ## 分割粒度
 
 - よしこさん
