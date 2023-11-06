@@ -2,12 +2,12 @@
 
 - よしこさん
   - https://zenn.dev/knowledgework/articles/99f8047555f700
-- Uhyo
+- Uhyo さん
   - 1 ロジック 1 コンポーネント
 
 ## 構造
 
-- Uhyo
+- Uhyo さん
   - 1 コンポーネント 1 フック
   - 中間状態の変数を JSX から勝手に触られるのを防ぐ
   - 特にロジックが複雑だと切り出すことが多い
@@ -31,7 +31,7 @@
   - CSS Modules 使っている
   - stylelint でプロパティの並び順やコーディングルールを autofix
   - typed-css-modules を CI 上でだけ回してセレクタ参照チェック
-- Uhyo
+- Uhyo さん
   - CSS Modules が好き
   - CSS の構文が直接書けるのはやっぱり偉い
   - margin を持ったコンポーネントは ×
@@ -44,7 +44,7 @@
 - よしこさん
   - Testing Trophy
   - コンポーネントのテストはどこをどうテストする？
-- Uhyo
+- Uhyo さん
   - 基本は Hook に対するユニットテスト
     - ロジックに関するテストの需要が大きいため
 - ディスカッション
@@ -60,7 +60,7 @@
     - メディアではないので
   - component 内での useMemo/useCallback の徹底もしていない
     - 早めに慣れて最初からやっておけば良かった
-- Uhyo
+- Uhyo さん
   - コンポーネント分割と Suspense
   - useMemo はちゃんと使う
     - 重い計算を避けるというより、同じオブジェクトを同じままにする最適化・設計意図の明示という意味が大きい
